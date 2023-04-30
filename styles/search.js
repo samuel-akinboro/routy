@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'row',
-        gap: 10
     },
     paginationButton: {
         width: 30,
@@ -46,7 +45,8 @@ const styles = StyleSheet.create({
         borderRadius: 2,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: COLORS.white
+        backgroundColor: COLORS.white,
+        marginHorizontal: 10,
     },
     paginationText: {
         fontFamily: FONT.bold,
