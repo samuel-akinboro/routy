@@ -26,9 +26,8 @@ export default function Home() {
           flex: 1,
           padding: SIZES.medium
         }}>
-          <Welcome 
-          
-          />
+          <Welcome />
+          <Popularjobs />
         </View>
       </ScrollView>
     </SafeAreaView>
